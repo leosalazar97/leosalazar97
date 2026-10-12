@@ -67,6 +67,28 @@ Full-Stack Software Developer passionate about building practical software solut
   <img src="https://img.shields.io/badge/Scrum-475569?style=flat" />
 </p>
 
+## Why Me?
+
+<details>
+<summary><b>Why should you choose me?</b></summary>
+<br>
+
+I'm a versatile Full-Stack Developer with hands-on experience across different technologies, projects, and development environments. I've worked on a production ERP system, contributed to web applications in different tech stacks, collaborated with an international team, and built personal projects involving mobile development, Python automation, and cloud deployment.
+
+I adapt to new tools by focusing on the fundamentals that matter: clean code, separation of concerns, problem-solving, and maintainable solutions. I'm looking for a team where I can contribute, take on real challenges, and keep growing as a developer.
+
+</details>
+
+<details>
+<summary><b>What value can I bring to your company?</b></summary>
+<br>
+
+I can contribute across the development lifecycle, from building user interfaces and implementing business logic to working with databases, integrating APIs, and deploying applications on Linux.
+
+My experience across different stacks helps me understand how the different parts of an application fit together, collaborate effectively with frontend and backend developers, and investigate issues beyond a single layer. Combined with my adaptability, attention to usability, and ability to work in Italian, Spanish, and English, I bring a flexible, collaborative mindset to a development team.
+
+</details>
+
 ## Come sviluppo
 
 Gli schemi che uso per ragionare quando parto da zero con una tecnologia. Cambiano gli strumenti, non l'idea: ogni livello ha una responsabilità sola.
