@@ -71,63 +71,109 @@ Full-Stack Software Developer passionate about building practical software solut
 
 Gli schemi che uso per ragionare quando parto da zero con una tecnologia. Cambiano gli strumenti, non l'idea: ogni livello ha una responsabilità sola.
 
-### Java / Spring Boot
+### Frontend Development
 
 ```mermaid
-flowchart LR
-    A[Client] --> B[Controller<br/>REST API]
-    B --> C[Service<br/>logica di business]
-    C --> D[Repository]
-    D --> E[(MySQL)]
-```
-
-### React
-
-```mermaid
-flowchart LR
-    A[Componenti UI] --> B[Stato<br/>Zustand]
+flowchart TD
+    A[Componenti UI] --> B[State Management]
     B --> C[Layer API]
-    C --> D[Backend]
+    C -->|HTTP Request| D[Backend / REST API]
+    D -->|HTTP Response| C
+    C --> B
+    B -->|Aggiornamento UI| A
+
+    classDef frontend fill:#2563eb,color:#fff,stroke:#1d4ed8
+    classDef state fill:#7c3aed,color:#fff,stroke:#6d28d9
+    classDef api fill:#0891b2,color:#fff,stroke:#0e7490
+    class A frontend
+    class B state
+    class C,D api
+```
+### Backend Development
+
+```mermaid
+flowchart TD
+    A[Client] -->|HTTP Request| B[Controller / REST API]
+    B --> C[Service / Business Logic]
+    C --> D[Repository / Data Access]
+    D --> E[(Database)]
+    E --> D
     D --> C
     C --> B
-    B --> A
+    B -->|HTTP Response| A
+
+    classDef api fill:#2563eb,color:#fff,stroke:#1d4ed8
+    classDef logic fill:#16a34a,color:#fff,stroke:#15803d
+    classDef data fill:#9333ea,color:#fff,stroke:#7e22ce
+    class A,B api
+    class C logic
+    class D,E data
 ```
 
-### Angular
+### Mobile Development
+
+```mermaid
+flowchart TD
+    A[Screen / UI] <--> B[State & App Logic]
+    B <--> C[(Local Storage)]
+    B <--> D[Backend / REST API]
+    D <--> E[Remote Services]
+    E --> F[Push Notifications]
+    F --> A
+
+    classDef ui fill:#2563eb,color:#fff,stroke:#1d4ed8
+    classDef logic fill:#16a34a,color:#fff,stroke:#15803d
+    classDef data fill:#9333ea,color:#fff,stroke:#7e22ce
+    classDef service fill:#ea580c,color:#fff,stroke:#c2410c
+    class A ui
+    class B logic
+    class C,D data
+    class E,F service
+```
+
+### AI & Automation
+
+```mermaid
+flowchart TD
+    A[Event / User Input] --> B[Async Handler]
+    B --> C[Business Logic]
+    C --> D{Task Type}
+    D -->|AI Processing| E[AI API / LLM]
+    D -->|Automation| F[Automation Workflow]
+    E --> G[Response / Action]
+    F --> G
+    G --> H[(Storage / Logs)]
+
+    I[Python / asyncio] -. Orchestration .-> B
+
+    classDef input fill:#2563eb,color:#fff,stroke:#1d4ed8
+    classDef logic fill:#16a34a,color:#fff,stroke:#15803d
+    classDef ai fill:#9333ea,color:#fff,stroke:#7e22ce
+    classDef output fill:#ea580c,color:#fff,stroke:#c2410c
+    class A input
+    class B,C,I logic
+    class D,E,F ai
+    class G,H output
+```
+    
+### Deployment & Infrastructure
 
 ```mermaid
 flowchart LR
-    A[Component] --> B[Service]
-    B --> C[HttpClient]
-    C --> D[REST API]
-```
+    A[Git / Repository] --> B[Build & Tests]
+    B --> C[Deployment]
+    C --> D[Linux / Ubuntu]
+    D --> E[Running Application]
+    E --> F[Logs & Monitoring]
 
-### React Native (mobile)
+    G[Oracle Cloud Infrastructure] --- D
 
-```mermaid
-flowchart LR
-    A[Screen] --> B[Stato]
-    B --> C[(Persistenza locale)]
-    B --> D[Notifiche push]
-```
-
-### Python (asincrono)
-
-```mermaid
-flowchart LR
-    A[Eventi / input] --> B[Handler asincroni<br/>asyncio]
-    B --> C[Logica]
-    C --> D[(Dati)]
-    C --> E[Output / API esterne]
-```
-
-### Dal codice al deploy
-
-```mermaid
-flowchart LR
-    A[Git] --> B[Build / test]
-    B --> C[Server Linux<br/>Ubuntu]
-    C --> D[Servizio in esecuzione<br/>Oracle Cloud]
+    classDef code fill:#2563eb,color:#fff,stroke:#1d4ed8
+    classDef process fill:#16a34a,color:#fff,stroke:#15803d
+    classDef infra fill:#475569,color:#fff,stroke:#334155
+    class A code
+    class B,C process
+    class D,E,F,G infra
 ```
 
 <br>
