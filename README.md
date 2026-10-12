@@ -89,9 +89,9 @@ I bring experience with modern technologies used in professional software develo
   <img src="https://img.shields.io/badge/Scrum-475569?style=flat" />
 </p>
 
-## Come sviluppo
+## How I Develop
 
-Gli schemi che uso per ragionare quando parto da zero con una tecnologia. Cambiano gli strumenti, non l'idea: ogni livello ha una responsabilità sola.
+These diagrams represent the architectural patterns and workflows I use in my projects. They illustrate how I structure applications, organize responsibilities, and connect the different layers of a system.
 
 ### Frontend Development
 
