@@ -8,25 +8,64 @@
 
 ## Chi sono
 
-Sviluppatore full-stack, nato in Bolivia e in Italia da 15 anni. Trilingue: spagnolo madrelingua, italiano C2, inglese B2.
-Ho lavorato su un ERP in produzione per clienti aziendali, in un team internazionale a Malta e su progetti personali che arrivano fino al deploy su Linux.
-Cerco un team in cui crescere su progetti reali.
+Full-Stack Software Developer passionate about building practical software solutions, from intuitive user interfaces to backend logic, database management, and deployment. Experienced in enterprise ERP systems, international Agile teams, web and mobile development, automation, and AI-powered applications. Combining technical skills with a strong interest in UX, design, and problem-solving. Italian, Spanish, and English.
 
 <br>
 
-## Stack
+## Tech Stack
 
-**Frontend** &nbsp; `React` `Angular` `TypeScript` `JavaScript` `Material UI` `Zustand` `Bootstrap`
-**Backend** &nbsp; `Java` `Spring Boot` `REST API` `Python`
-**Dati** &nbsp; `MySQL` `SQL` `Supabase (RLS, trigger, realtime)`
-**Mobile** &nbsp; `React Native (Expo)`
-**Infrastruttura e metodo** &nbsp; `Linux (Ubuntu)` `Oracle Cloud` `Git` `Agile/Scrum`
+**Frontend**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=react,angular,ts,js,java,spring,python,mysql,supabase,linux,git&theme=dark" alt="skills" />
+  <img src="https://img.shields.io/badge/React-2563EB?style=flat" />
+  <img src="https://img.shields.io/badge/Angular-2563EB?style=flat" />
+  <img src="https://img.shields.io/badge/TypeScript-2563EB?style=flat" />
+  <img src="https://img.shields.io/badge/JavaScript-2563EB?style=flat" />
+  <img src="https://img.shields.io/badge/Material_UI-2563EB?style=flat" />
+  <img src="https://img.shields.io/badge/Zustand-2563EB?style=flat" />
+  <img src="https://img.shields.io/badge/Bootstrap-2563EB?style=flat" />
+  <img src="https://img.shields.io/badge/HTML5-2563EB?style=flat" />
+  <img src="https://img.shields.io/badge/CSS3-2563EB?style=flat" />
+  <img src="https://img.shields.io/badge/jQuery-2563EB?style=flat" />
 </p>
 
-<br>
+**Backend**
+
+<p>
+  <img src="https://img.shields.io/badge/Java-16A34A?style=flat" />
+  <img src="https://img.shields.io/badge/Spring_Boot-16A34A?style=flat" />
+  <img src="https://img.shields.io/badge/REST_API-16A34A?style=flat" />
+  <img src="https://img.shields.io/badge/Python-16A34A?style=flat" />
+</p>
+
+**Database & Data**
+
+<p>
+  <img src="https://img.shields.io/badge/SQL-9333EA?style=flat" />
+  <img src="https://img.shields.io/badge/MySQL-9333EA?style=flat" />
+  <img src="https://img.shields.io/badge/Supabase-9333EA?style=flat" />
+  <img src="https://img.shields.io/badge/Row_Level_Security-9333EA?style=flat" />
+  <img src="https://img.shields.io/badge/Realtime-9333EA?style=flat" />
+</p>
+
+**Mobile Development**
+
+<p>
+  <img src="https://img.shields.io/badge/React_Native-F97316?style=flat" />
+  <img src="https://img.shields.io/badge/Expo-F97316?style=flat" />
+</p>
+
+**Cloud, Tools & Methodologies**
+
+<p>
+  <img src="https://img.shields.io/badge/Linux-475569?style=flat" />
+  <img src="https://img.shields.io/badge/Ubuntu-475569?style=flat" />
+  <img src="https://img.shields.io/badge/Oracle_Cloud-475569?style=flat" />
+  <img src="https://img.shields.io/badge/Git-475569?style=flat" />
+  <img src="https://img.shields.io/badge/GitHub-475569?style=flat" />
+  <img src="https://img.shields.io/badge/Agile-475569?style=flat" />
+  <img src="https://img.shields.io/badge/Scrum-475569?style=flat" />
+</p>
 
 ## Come sviluppo
 
