@@ -13,19 +13,17 @@ Full-Stack Software Developer passionate about building practical software solut
 <br>
 
 ## Why Me?
-
 <details>
-<b>Why did I choose to work across different technologies instead of specializing in just one?</b>
+<summary><b>Why did I choose to work across different technologies instead of specializing in just one?</b></summary>
 <br>
 
 I believe the direction technology is taking is pushing us to become more versatile developers: people who can work across different technologies, understand different areas of software development, and adapt to new challenges.
 
 The tech world moves incredibly fast. The way we build software today may look very different a year from now. In my opinion, adaptability is essential at every level of seniority. That's why I chose not to limit myself to a single programming language or framework. I want to understand different technologies, recognize the principles they share, and be ready to learn and adapt as the industry evolves.
-
 </details>
 
-<details>
-<b>What value can I bring to a company?</b>
+<details> 
+<summary><b>What value can I bring to a company?</b></summary>
 <br>
 
 I see a Full-Stack Developer as more than someone who works on both frontend and backend. Especially in small and medium-sized businesses, I believe this role can bring value by understanding and contributing to a wide range of technological needs: from building websites and business management systems to creating digital content, integrating services, and maintaining or debugging legacy software.
