@@ -12,6 +12,28 @@ Full-Stack Software Developer passionate about building practical software solut
 
 <br>
 
+## Why Me?
+
+<details>
+<summary><b>Why did I choose to work across different technologies instead of specializing in just one?</b></summary>
+<br>
+
+I believe the direction technology is taking is pushing us to become more versatile developers: people who can work across different technologies, understand different areas of software development, and adapt to new challenges.
+
+The tech world moves incredibly fast. The way we build software today may look very different a year from now. In my opinion, adaptability is essential at every level of seniority. That's why I chose not to limit myself to a single programming language or framework. I want to understand different technologies, recognize the principles they share, and be ready to learn and adapt as the industry evolves.
+
+</details>
+
+<details>
+<summary><b>What value can I bring to a company?</b></summary>
+<br>
+
+I see a Full-Stack Developer as more than someone who works on both frontend and backend. Especially in small and medium-sized businesses, I believe this role can bring value by understanding and contributing to a wide range of technological needs: from building websites and business management systems to creating digital content, integrating services, and maintaining or debugging legacy software.
+
+I bring experience with modern technologies used in professional software development, together with a broad set of complementary skills. My goal is to understand the bigger picture, identify what a project needs, and contribute wherever my skills can make a difference, while continuing to learn and grow with the team.
+
+</details>
+
 ## Tech Stack
 
 **Frontend**
@@ -198,35 +220,4 @@ flowchart LR
     class D,E,F,G infra
 ```
 
-<br>
-
-## Perché scegliere me?
-
-<details>
-<summary><b>Perché non mi sono specializzato in una sola tecnologia?</b></summary>
-<br>
-
-Perché le tecnologie cambiano e il vantaggio sta nell'adattarsi, più che nel conoscerne una sola a fondo. Ho scelto di toccare stack anche molto diversi tra loro (Java, React, Angular, Python, Supabase, Linux) per imparare cosa resta uguale sotto: modellare i dati, separare le responsabilità, gestire gli errori. Quando arriva uno strumento nuovo, parto da quelle basi.
-</details>
-
-<details>
-<summary><b>Come lo dimostro, oltre a dirlo?</b></summary>
-<br>
-
-Con i fatti: in tre esperienze consecutive ho lavorato con tre stack diversi (Java/JSP/jQuery in un ERP, Angular + Spring Boot in un'app web, React + Supabase a Malta) e dopo la formazione ho aggiunto Python e API OpenAI. In più ho portato un progetto personale fino al deploy su Linux.
-</details>
-
-<details>
-<summary><b>Che valore porta un profilo che vede tutta la filiera?</b></summary>
-<br>
-
-`[DA CONFERMARE CON TE]` Bozza: so cosa succede dall'interfaccia al database fino al server su cui gira il codice. Questo mi aiuta a parlare con colleghi di front-end e back-end, a capire dove nasce un problema e a non fermarmi al mio pezzo.
-</details>
-
-<br>
-
-## Contatti
-
-[LinkedIn](#) · [Email](#) · [Portfolio](#)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:30363d,100:0d1117&height=60&section=footer" width="100%" alt="footer" />
+<br>aving&color=0:30363d,100:0d1117&height=60&section=footer" width="100%" alt="footer" />
