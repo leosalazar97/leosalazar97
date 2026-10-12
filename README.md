@@ -1,16 +1,14 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:30363d&height=160&section=header&text=Leonardo%20Salazar%20Cassano&fontColor=e6edf3&fontSize=38&fontAlignY=38" width="100%" alt="header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:30363d&height=90&section=header&text=Leonardo%20Salazar%20Cassano&fontColor=e6edf3&fontSize=30&fontAlignY=55" width="100%" alt="header" />
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=1200&color=8B949E&center=true&vCenter=true&width=620&lines=Full-Stack+Software+Developer;Java+%C2%B7+Spring+Boot+%C2%B7+React+%C2%B7+Angular+%C2%B7+TypeScript;Python+%26+AI+%C2%B7+Linux+%C2%B7+Cloud" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=3000&pause=1200&color=8B949E&center=true&vCenter=true&width=520&height=24&lines=Full-Stack+Software+Developer;Java+%C2%B7+Spring+Boot+%C2%B7+React+%C2%B7+Angular+%C2%B7+TypeScript;Python+%26+AI+%C2%B7+Linux+%C2%B7+Cloud" alt="Typing SVG" /></a>
 
 </div>
 
-<br>
-
 ## Chi sono
 
-Sviluppatore full-stack, nato a Bergamo, trilingue (spagnolo madrelingua, italiano C2, inglese B2).
+Sviluppatore full-stack, nato in Bolivia e in Italia da 15 anni. Trilingue: spagnolo madrelingua, italiano C2, inglese B2.
 Ho lavorato su un ERP in produzione per clienti aziendali, in un team internazionale a Malta e su progetti personali che arrivano fino al deploy su Linux.
 Cerco un team in cui crescere su progetti reali.
 
@@ -30,52 +28,68 @@ Cerco un team in cui crescere su progetti reali.
 
 <br>
 
-## Come penso e come costruisco
+## Come sviluppo
 
-### Automation System: automazione per community Telegram
+Gli schemi che uso per ragionare quando parto da zero con una tecnologia. Cambiano gli strumenti, non l'idea: ogni livello ha una responsabilità sola.
 
-Sistema in Python per gestire in autonomia una community Telegram ad accesso a pagamento: ingresso degli iscritti, controllo della scadenza dell'abbonamento, rimozione automatica alla fine del periodo e invio di messaggi programmati e personalizzati. Gira su un'istanza Oracle Cloud (Ubuntu) che ho configurato e gestisco io.
-
-```mermaid
-flowchart LR
-    A[Telegram] <--> B[Userbot Python<br/>asyncio]
-    B --> C[Gestione iscritti<br/>e scadenze]
-    B --> D[Invio messaggi<br/>programmati e personalizzati]
-    C --> E[(Persistenza dati)]
-    D --> E
-    B -. deploy .-> F[Oracle Cloud<br/>Ubuntu / Linux]
-```
-
-> `[DA VERIFICARE]` il blocco "Persistenza dati": se usi file, SQLite o altro, lo scrivo con il nome giusto.
-
-### Mobile Reminder & Personal Finance App
-
-App cross-platform in React Native (Expo) per scadenze ricorrenti e contabilità personale (entrate e uscite), con notifiche push e dati salvati in locale.
+### Java / Spring Boot
 
 ```mermaid
 flowchart LR
-    A[UI<br/>React Native + Expo] --> B[Gestione dello stato]
-    B --> C[(Local storage)]
-    B --> D[Notifiche push<br/>scadenze ricorrenti]
+    A[Client] --> B[Controller<br/>REST API]
+    B --> C[Service<br/>logica di business]
+    C --> D[Repository]
+    D --> E[(MySQL)]
 ```
 
-### Dove ho usato cosa
+### React
 
 ```mermaid
-flowchart TB
-    subgraph SIT[SIT Informatica · ERP in produzione]
-        S1[Java · SQL · JSP] --- S2[JavaScript · jQuery · low-code]
-    end
-    subgraph ROMA[Progetto Roma · app web]
-        R1[Angular · Bootstrap] --- R2[Java · Spring Boot · MySQL]
-    end
-    subgraph MALTA[Born Digital Studios · Malta]
-        M1[React · Material UI · Zustand] --- M2[Supabase · RLS · realtime]
-    end
-    SIT --> ROMA --> MALTA
+flowchart LR
+    A[Componenti UI] --> B[Stato<br/>Zustand]
+    B --> C[Layer API]
+    C --> D[Backend]
+    D --> C
+    C --> B
+    B --> A
 ```
 
-Tre contesti, tre stack diversi, un filo comune: partire dal problema e adattare gli strumenti.
+### Angular
+
+```mermaid
+flowchart LR
+    A[Component] --> B[Service]
+    B --> C[HttpClient]
+    C --> D[REST API]
+```
+
+### React Native (mobile)
+
+```mermaid
+flowchart LR
+    A[Screen] --> B[Stato]
+    B --> C[(Persistenza locale)]
+    B --> D[Notifiche push]
+```
+
+### Python (asincrono)
+
+```mermaid
+flowchart LR
+    A[Eventi / input] --> B[Handler asincroni<br/>asyncio]
+    B --> C[Logica]
+    C --> D[(Dati)]
+    C --> E[Output / API esterne]
+```
+
+### Dal codice al deploy
+
+```mermaid
+flowchart LR
+    A[Git] --> B[Build / test]
+    B --> C[Server Linux<br/>Ubuntu]
+    C --> D[Servizio in esecuzione<br/>Oracle Cloud]
+```
 
 <br>
 
@@ -108,4 +122,4 @@ Con i fatti: in tre esperienze consecutive ho lavorato con tre stack diversi (Ja
 
 [LinkedIn](#) · [Email](#) · [Portfolio](#)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:30363d,100:0d1117&height=100&section=footer" width="100%" alt="footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:30363d,100:0d1117&height=60&section=footer" width="100%" alt="footer" />
